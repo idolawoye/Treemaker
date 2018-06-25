@@ -1,7 +1,7 @@
 """
 A python3 script that takes alignment files and creates a treefile using SNP variant
 """
-print("TREEMAKER v0.1 is a phylogeny tree builder that takes alignment files and constructs a relationship tree. Written by Idowu Olawoye\n")
+print("TREEMAKER v0.1 is a phylogeny tree builder that takes alignment files and constructs a relationship tree. Written by Idowu Olawoye @idowuolawoye\n")
 
 from Bio import Seq
 from Bio import AlignIO
