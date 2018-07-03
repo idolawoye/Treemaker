@@ -49,3 +49,5 @@ DONE.
 
 Tree file can be found in C:\Users\Idowu\AppData\Local\Programs\Python\Python36\biopython-1.70\Tests\Phylip\reference_dna2 - Copy.phy.newick
 ```
+### References
+1. Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
