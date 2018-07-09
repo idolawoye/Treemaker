@@ -5,10 +5,15 @@ A python script that takes alignment file, constructs a pylogeny tree, preview t
 * Biopython
 * matplotlib
 * Bio.Phylo
+* PAML package
+
+Ensure PAML is installed correctly by following the steps here http://abacus.gene.ucl.ac.uk/software/paml.html
+
+Things to note when using Maximum Likelihood, ensure the phylip file has 2 or more spaces between the sequences and sequence name.
 
 To view help on the command line, load the python file followed by -h or -v for version.
 
-Treemaker can be run directly on the commandline, the program asks for an alignment file which can be a Phylip file and then the user is asked to select a model for building the phylogeny tree. Models are Parsimony tree constructor and Distance Tree constructor which can either be Neighbour joining OR Unweighted pair group method with arithmetic mean (UPGMA). The program then proceeds to build the phylogeny tree and then saves it in the same directory where the alignment file was imported with same name of alignment file.
+Treemaker can be run directly on the commandline or simply running the python file by double-clicking like an ```exe``` file. The program asks for an alignment file which can be a Phylip file and then the user is asked to select a model for building the phylogeny tree. Models are Parsimony tree constructor, Distance Tree constructor which can either be Neighbour joining OR Unweighted pair group method with arithmetic mean (UPGMA) and Maximum Likelihood using TN93 model. The program then proceeds to build the phylogeny tree and then saves it in the same directory where the alignment file was imported with same name of alignment file.
 
 Example:
 
@@ -19,6 +24,7 @@ Enter path to Alignment file:C:\Users\Idowu\AppData\Local\Programs\Python\Python
                 1.Parsimony Tree constructor
                 2.Distance Tree constructor (Neighbour Joining)
                 3.Distance Tree constructor (UPGMA)
+                4.Maximum Likelihood using TN93 model
 
 What model will you like to use?3
 SingleLetterAlphabet() alignment with 6 rows and 39 columns
@@ -51,3 +57,4 @@ Tree file can be found in C:\Users\Idowu\AppData\Local\Programs\Python\Python36\
 ```
 ### References
 1. Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
+2. Ziheng Yang; PAML 4: Phylogenetic Analysis by Maximum Likelihood, Molecular Biology and Evolution, Volume 24, Issue 8, 1 August 2007, Pages 1586–1591, https://doi.org/10.1093/molbev/msm088
